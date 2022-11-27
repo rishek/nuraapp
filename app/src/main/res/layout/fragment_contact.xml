@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Me"
+        android:textColor="#fff"
+        android:textSize="40dp"
+        android:lines="1"
+        />
+    <View
+        android:layout_width="230dp"
+        android:layout_height="1dp"
+        android:background="#fff"
+        android:layout_marginTop="9dp"
+        >
+    </View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_location"
+        android:text="Kathmandu, Nepal"
+        android:drawablePadding="20dp"
+        android:textColor="#FF9E9A9A"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="276dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="20dp"
+        android:gravity="center"
+        android:text="Phone: +977 9848242947"
+        android:textColor="#FF9E9A9A"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_mail"
+        android:text="Email:arn.devk@gmail.com"
+        android:drawablePadding="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF9E9A9A"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

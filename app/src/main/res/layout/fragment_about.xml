@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arun Devkota"
+            android:textColor="#fff"
+            android:textSize="40dp"
+            android:layout_gravity="left"
+            android:lines="1"
+            />
+        <View
+            android:layout_width="230dp"
+            android:layout_height="1dp"
+            android:background="#fff"
+            android:layout_marginTop="9dp"
+            android:layout_gravity="left">
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Skills"
+            android:textColor="#fff"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="26dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/skills"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download Resume"
+            android:background="@drawable/button_bg"
+            android:layout_gravity="left"
+            />
+
+    </LinearLayout>
+</ScrollView>
